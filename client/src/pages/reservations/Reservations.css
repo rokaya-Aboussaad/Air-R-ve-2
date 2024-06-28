@@ -1,0 +1,52 @@
+/* Reservations.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #06443b;
+  border: 1px solid #06443b;
+  border-radius: 5px;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reservation-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.reservation-item:hover {
+  background-color: #ff72b6;
+}
+
+.hotel-image {
+  max-width: 100px; /* Set a smaller width for the image */
+  height: auto;
+  margin-right: 20px; /* Add some space between the image and the details */
+  border-radius: 5px;
+}
+
+.reservation-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-detail {
+  margin: 5px 0;
+  color: #666;
+}
+
+.hotel-name {
+  font-size: 18px;
+  margin: 0;
+}

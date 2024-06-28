@@ -1,0 +1,62 @@
+.navbar {
+  height: 50px;
+  background-color: #06443B;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: with;
+  font-weight: 500;
+}
+
+.userIconContainer {
+  position: relative;
+}
+
+.userIcon {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.userIcon:hover {
+  color: #FF72B6; /* Couleur rose au survol de l'icône utilisateur */
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 40px; /* Ajustez en fonction de la hauteur de votre barre de navigation */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Assurez-vous qu'il apparaisse au-dessus des autres éléments */
+}
+
+.dropdownMenu .navButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: #06443B;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdownMenu .navButton:hover {
+  background-color: #f1f1f1; /* Fond gris clair au survol des boutons */
+  color: #FF72B6; /* Texte rose au survol des boutons */
+}
+
